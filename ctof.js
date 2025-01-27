@@ -1,3 +1,3 @@
-var a=10
-var b=(a*1.8)+32
-console.log(b);
+var c=10
+var f=(c*1.8)+32
+console.log(f);

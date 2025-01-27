@@ -1,16 +1,16 @@
 var a=3
 var b=4
+var operator='+'
 if(operator == '+'){
-    c=a+b;
+    console.log(a+b);
+}else if(operator == '-'){
+    console.log(a-b);
+}else if(operator == '*'){
+    console.log(a*b);
+}else if(operator == '/'){
+    console.log(a/b);
+}else{
+    console.log('the nymber is inavalid');
 }
-else if(operator == '-'){
-    d=a-b;
-}
-else if(operator == '*'){
-    e=a*b;
-}
-else{
-    f=a/b;
-}
-console.log(d);
+
 
