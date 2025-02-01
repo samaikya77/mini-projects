@@ -1,3 +1,3 @@
-var string=b
-var result=string.charcodeAt(0);
+var string='A';
+var result=string.charCodeAt(0);
 console.log(result);

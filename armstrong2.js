@@ -1,9 +1,9 @@
-for (let i = 8; i <= 500; i++) {
+for (var i = 8; i <= 500; i++) {
     var numberOfDigits = i.toString().length;
     var sum = 0;
     var temp = i;
     while (temp > 0){
-        let remainder = temp % 10;
+        var remainder = temp % 10;
         sum += remainder ** numberOfDigits;
         temp = parseInt(temp / 10); 
     }
